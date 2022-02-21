@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/manisaiprasad/Dev/near/hackathon/NearNFT/contracts/nft/target/wasm32-unknown-unknown/release/build/typenum-86e4b8465d8cb90c/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/manisaiprasad/Dev/near/hackathon/NearNFT/contracts/nft/target/wasm32-unknown-unknown/release/build/typenum-86e4b8465d8cb90c/out/op.rs

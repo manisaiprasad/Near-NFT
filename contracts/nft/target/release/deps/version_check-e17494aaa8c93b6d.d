@@ -1,0 +1,10 @@
+/Users/manisaiprasad/Dev/near/hackathon/NearNFT/contracts/nft/target/release/deps/version_check-e17494aaa8c93b6d.rmeta: /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/lib.rs /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/version.rs /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/channel.rs /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/date.rs
+
+/Users/manisaiprasad/Dev/near/hackathon/NearNFT/contracts/nft/target/release/deps/libversion_check-e17494aaa8c93b6d.rlib: /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/lib.rs /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/version.rs /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/channel.rs /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/date.rs
+
+/Users/manisaiprasad/Dev/near/hackathon/NearNFT/contracts/nft/target/release/deps/version_check-e17494aaa8c93b6d.d: /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/lib.rs /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/version.rs /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/channel.rs /Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/date.rs
+
+/Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/lib.rs:
+/Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/version.rs:
+/Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/channel.rs:
+/Users/manisaiprasad/.cargo/registry/src/github.com-1ecc6299db9ec823/version_check-0.9.2/src/date.rs:
