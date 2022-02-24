@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+## Inspiration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+OpenSea is always our biggest inspiration, the way it effectively built a potential platform for creators, investors, and traders is what made us to take a step ahead and create OpenOcean, an NFT Marketpalce built on Near.
 
-## Available Scripts
+Our Mission behind OpenOcean is to provide the best User experience we could ever. In the process, we could able to deliver the pretties NFT marketplace that you could ever find on the internet, and we’re proudly presenting that we’re only on Near at the moment.
 
-In the project directory, you can run:
+The Design track in the prize list is also a catalyst that could help make our mission become reality.
 
-### `yarn start`
+## What it does:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+OpenOcean can do:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Minting an NFT by the user
+- Buy an NFT
+- Sell an NFT
+- Create an Auction (dev stage)
+- Bid an NFT (early stage)
+- Profile holding, purchases of the user
+- List all NFTs available to buy.
 
-### `yarn test`
+## How we built it:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Absolute React Js
 
-### `yarn build`
+## Challenges we ran into:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Fetching the data presenting was an ad-hoc to the development
+Minting an NFT with near rest API was intimidating and prone to failures at first
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Accomplishments that we’re proud of:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We could able to do this, and we did our best
+Providing the best UI that we could, getting inspired by various sources on the internet
 
-### `yarn eject`
+## What we learned:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A drop in the ocean of NFT
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What’s next for OpenOcean:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Integrating OpenOcean with various wallets
+Adding much more user customization
+Tweaking the business model by offering royalties to the creators
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Installation
 
-## Learn More
+#### If you don't have Rust
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install Rust https://rustup.rs/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### If you have never used near-cli
 
-### Code Splitting
+1. Install near-cli: `npm i -g near-cli`
+2. Create testnet account: [Wallet](https://wallet.testnet.near.org)
+3. Login: `near login`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Installing and Running Tests
 
-### Analyzing the Bundle Size
+1. Install everything: `yarn or npm i`
+2. Deploy the contract and run the app tests: `yarn test:deploy`
+3. Run the app : `yarn start or npm run start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Don't forget to install the wasm32 target:
 
-### Making a Progressive Web App
+`rustup target add wasm32-unknown-unknown`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Also recommend installing near-cli globally
 
-### Advanced Configuration
+`npm i -g near-cli`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Screenshots:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](./Screenshots/1.png)
+![](./Screenshots/2.png)
+![](./Screenshots/3.png)
+![](./Screenshots/4.png)
+![](./Screenshots/5.png)
+![](./Screenshots/6.png)
+![](./Screenshots/7.png)
+![](./Screenshots/8.png)
+![](./Screenshots/15.png)
+![](./Screenshots/9.png)
+![](./Screenshots/10.png)
+![](./Screenshots/11.png)
+![](./Screenshots/12.png)
+![](./Screenshots/13.png)
+![](./Screenshots/14.png)
