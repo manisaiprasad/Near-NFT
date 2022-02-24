@@ -5,7 +5,6 @@ import Home from "./screens/Home";
 import UploadVariants from "./screens/UploadVariants";
 import UploadDetails from "./screens/UploadDetails";
 import ConnectWallet from "./screens/ConnectWallet";
-import Faq from "./screens/Faq";
 import Activity from "./screens/Activity";
 import Search01 from "./screens/Search01";
 import Search02 from "./screens/Search02";
@@ -81,15 +80,7 @@ function App() {
             </Page>
           )}
         />
-        <Route
-          exact
-          path="/faq"
-          render={() => (
-            <Page>
-              <Faq />
-            </Page>
-          )}
-        />
+
         <Route
           exact
           path="/activity"

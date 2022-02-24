@@ -2,7 +2,6 @@ import React from "react";
 import cn from "classnames";
 import styles from "./Checkout.module.sass";
 import Icon from "../../../../components/Icon";
-import LoaderCircle from "../../../../components/LoaderCircle";
 
 const items = [
   {
@@ -28,8 +27,8 @@ const Checkout = ({ className }) => {
     <div className={cn(className, styles.checkout)}>
       <div className={cn("h4", styles.title)}>Checkout</div>
       <div className={styles.info}>
-        You are about to purchase <strong>C O I N Z</strong> from{" "}
-        <strong>UI8</strong>
+        You are about to purchase <strong>NFT</strong> from{" "}
+        <strong>OpenOcean</strong>
       </div>
       <div className={styles.table}>
         {items.map((x, index) => (
@@ -39,27 +38,7 @@ const Checkout = ({ className }) => {
           </div>
         ))}
       </div>
-      {/* <div className={styles.attention}>
-        <div className={styles.preview}>
-          <Icon name="info-circle" size="32" />
-        </div>
-        <div className={styles.details}>
-          <div className={styles.subtitle}>This creator is not verified</div>
-          <div className={styles.text}>Purchase this item at your own risk</div>
-        </div>
-      </div> */}
-      {/* <div className={cn("h4", styles.title)}>Follow steps</div> */}
-      {/* <div className={styles.line}>
-        <div className={styles.icon}>
-          <LoaderCircle className={styles.loader} />
-        </div>
-        <div className={styles.details}>
-          <div className={styles.subtitle}>Purchasing</div>
-          <div className={styles.text}>
-            Sending transaction with your wallet
-          </div>
-        </div>
-      </div> */}
+
       <div className={styles.attention}>
         <div className={styles.preview}>
           <Icon name="info-circle" size="32" />
